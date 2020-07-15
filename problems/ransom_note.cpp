@@ -3,7 +3,7 @@
 #include <string>
 
 class Solution {
-public:
+ public:
   static bool can_construct(std::string ransom_note, std::string magazine) {
     // Contruct Hash Map
     std::map<char, int> hash_map;

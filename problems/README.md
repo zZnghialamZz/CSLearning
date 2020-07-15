@@ -1,6 +1,17 @@
 # Problems
 
-Collections of problems in LeetCode and its Solutions written in C++
+Collections of problems in LeetCode and its Solutions written in C++.
+
+## Add two numbers
+
+Problem is described at
+[Leetcode](https://leetcode.com/problems/add-two-numbers/ "Go to web").
+
+Solution: Use recursion for iter through the next nodes of two linked lists at
+once to do the calculation for this problem.
+
+ - Time complexity  : O(n)
+ - Space complexity : O(n)
 
 ## Ransom Note
 
