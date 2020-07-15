@@ -24,3 +24,17 @@ note.
 
  - Time complexity  : O(n)
  - Space complexity : O(1) - Constant complexity
+
+## Two Sum
+
+Problem is described at [Leetcode](https://leetcode.com/problems/two-sum/ "Go to
+web").
+
+Solutions:
+ - Use brute force way to loop through the array twice to find the correct pair.
+   - Time Complexity  : O(n^2)
+   - Space Complexity : None
+ - Use Hashmap to store the array while looping so we can find the pair by
+   indexing the hashmap.
+   - Time Complexity  : O(n)
+   - Space Complexity : O(n)
