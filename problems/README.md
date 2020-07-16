@@ -7,6 +7,7 @@ Collections of problems in LeetCode and its Solutions written in C++.
 
 - [Problems](#problems)
     - [Add two numbers](#add-two-numbers)
+    - [First Last indices of Sorted Array](#first-last-indices-of-sorted-array)
     - [Ransom Note](#ransom-note)
     - [Two Sum](#two-sum)
 
@@ -45,6 +46,10 @@ note.
 
  - Time complexity  : O(n)
  - Space complexity : O(1) - Constant complexity
+
+## Permutation
+
+_TODO_
 
 ## Two Sum
 
