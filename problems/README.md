@@ -2,6 +2,17 @@
 
 Collections of problems in LeetCode and its Solutions written in C++.
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Problems](#problems)
+    - [Add two numbers](#add-two-numbers)
+    - [Ransom Note](#ransom-note)
+    - [Two Sum](#two-sum)
+
+<!-- markdown-toc end -->
+
+
 ## Add two numbers
 
 Problem is described at
@@ -12,6 +23,16 @@ once to do the calculation for this problem.
 
  - Time complexity  : O(n)
  - Space complexity : O(n)
+
+## First Last indices of Sorted Array
+
+Problem is described at
+[Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+"Go to web").
+
+Solution: Use binary search to find the index of the target value.
+ - Time Complexity  : O(log(n))
+ - Space Complexity : O(log(n)) - Recursion Binary Search function
 
 ## Ransom Note
 
@@ -33,7 +54,7 @@ web").
 Solutions:
  - Use brute force way to loop through the array twice to find the correct pair.
    - Time Complexity  : O(n^2)
-   - Space Complexity : None
+   - Space Complexity : O(1)
  - Use Hashmap to store the array while looping so we can find the pair by
    indexing the hashmap.
    - Time Complexity  : O(n)
