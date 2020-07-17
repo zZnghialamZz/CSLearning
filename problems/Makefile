@@ -5,6 +5,7 @@ SOURCE_TWONUM = add_two_numbers.cpp
 SOURCE_TWOSUM = two_sum.cpp
 SOURCE_FIRSTLAST = first_last_indices.cpp
 SOURCE_PERM = permutation.cpp
+SOURCE_SORTCOR = sort_colors.cpp
 
 CMD = $(CXX) $? -Wall -std=c++14
 
@@ -32,3 +33,8 @@ PERM: $(SOURCE_PERM)
 	$(CMD) -o output/permutation
 run_PERM:
 	output/permutation
+
+SORTCOR: $(SOURCE_SORTCOR)
+	$(CMD) -o output/sort_colors
+run_SORTCOR:
+	output/sort_colors

@@ -9,6 +9,8 @@ Collections of problems in LeetCode and its Solutions written in C++.
     - [Add two numbers](#add-two-numbers)
     - [First Last indices of Sorted Array](#first-last-indices-of-sorted-array)
     - [Ransom Note](#ransom-note)
+    - [Sort Colors](#sort-colors)
+    - [Permutation](#permutation)
     - [Two Sum](#two-sum)
 
 <!-- markdown-toc end -->
@@ -46,6 +48,18 @@ note.
 
  - Time complexity  : O(n)
  - Space complexity : O(1) - Constant complexity
+ 
+## Sort Colors
+
+Problem is described at [Leetcode](https://leetcode.com/problems/sort-colors/
+"Go to web").
+
+Solution: Use two pointer to travel through the array, one start at head, the
+other will begin at tail. Once we loop through it, if the value is the smallest
+we can swap it with the head, otherwise we will swap with the tail.
+
+ - Time complexity  : O(n)
+ - Space complexity : O(1)
 
 ## Permutation
 
