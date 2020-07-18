@@ -6,6 +6,7 @@ SOURCE_TWOSUM = two_sum.cpp
 SOURCE_FIRSTLAST = first_last_indices.cpp
 SOURCE_PERM = permutation.cpp
 SOURCE_SORTCOR = sort_colors.cpp
+SOURCE_QUEUERES = queue_reconstruct_by_height.cpp
 
 CMD = $(CXX) $? -Wall -std=c++14
 
@@ -38,3 +39,8 @@ SORTCOR: $(SOURCE_SORTCOR)
 	$(CMD) -o output/sort_colors
 run_SORTCOR:
 	output/sort_colors
+
+QUEUERES: $(SOURCE_QUEUERES)
+	$(CMD) -o output/queue_reconstruct_by_height
+run_QUEUERES:
+	output/queue_reconstruct_by_height

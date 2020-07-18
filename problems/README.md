@@ -11,6 +11,7 @@ Collections of problems in LeetCode and its Solutions written in C++.
     - [Ransom Note](#ransom-note)
     - [Sort Colors](#sort-colors)
     - [Permutation](#permutation)
+    - [Queue Reconstruction by Height](#queue-reconstruction-by-height)
     - [Two Sum](#two-sum)
 
 <!-- markdown-toc end -->
@@ -64,6 +65,20 @@ we can swap it with the head, otherwise we will swap with the tail.
 ## Permutation
 
 _TODO_
+
+## Queue Reconstruction by Height
+
+Problem is described at
+[Leetcode](https://leetcode.com/problems/queue-reconstruction-by-height/ "Go to
+web").
+
+Solution: Sorting the array by the height and the value come after it depend on
+the data structure the problem provide. => Try to understand what data structure
+we are dealing with.
+
+ - Time complexity : O(nlog(n)) - Sorting algorithm complexity with lambda
+   condition
+ - Space complexity : O(n)
 
 ## Two Sum
 
