@@ -50,6 +50,17 @@ note.
  - Time complexity  : O(n)
  - Space complexity : O(1) - Constant complexity
  
+## Single Numbers
+
+Problem is described at [Leetcode](https://leetcode.com/problems/single-number/
+"Go to web").
+
+Solution: Using a bitwise solution called XOR. => Two same binary numbers
+multiple will return a value of 0.
+
+ - Time complexity  : O(n)
+ - Space complexity : O(1)
+
 ## Sort Colors
 
 Problem is described at [Leetcode](https://leetcode.com/problems/sort-colors/

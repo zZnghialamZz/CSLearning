@@ -7,6 +7,7 @@ SOURCE_FIRSTLAST = first_last_indices.cpp
 SOURCE_PERM = permutation.cpp
 SOURCE_SORTCOR = sort_colors.cpp
 SOURCE_QUEUERES = queue_reconstruct_by_height.cpp
+SOURCE_SINGLENUM = single_number.cpp
 
 CMD = $(CXX) $? -Wall -std=c++14
 
@@ -44,3 +45,8 @@ QUEUERES: $(SOURCE_QUEUERES)
 	$(CMD) -o output/queue_reconstruct_by_height
 run_QUEUERES:
 	output/queue_reconstruct_by_height
+
+SINGLENUM: $(SOURCE_SINGLENUM)
+	$(CMD) -o output/single_number
+run_SINGLENUM:
+	output/single_number
