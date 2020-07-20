@@ -8,6 +8,7 @@ SOURCE_PERM = permutation.cpp
 SOURCE_SORTCOR = sort_colors.cpp
 SOURCE_QUEUERES = queue_reconstruct_by_height.cpp
 SOURCE_SINGLENUM = single_number.cpp
+SOURCE_REVERSELL = reverse_ll.cpp
 
 CMD = $(CXX) $? -Wall -std=c++14
 
@@ -50,3 +51,8 @@ SINGLENUM: $(SOURCE_SINGLENUM)
 	$(CMD) -o output/single_number
 run_SINGLENUM:
 	output/single_number
+
+REVERSELL: $(SOURCE_REVERSELL)
+	$(CMD) -o output/reverse_ll
+run_REVERSELL:
+	output/reverse_ll

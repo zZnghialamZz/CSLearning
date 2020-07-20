@@ -9,6 +9,8 @@ Collections of problems in LeetCode and its Solutions written in C++.
     - [Add two numbers](#add-two-numbers)
     - [First Last indices of Sorted Array](#first-last-indices-of-sorted-array)
     - [Ransom Note](#ransom-note)
+    - [Reverse Linked List](#reverse-linked-list)
+    - [Single Numbers](#single-numbers)
     - [Sort Colors](#sort-colors)
     - [Permutation](#permutation)
     - [Queue Reconstruction by Height](#queue-reconstruction-by-height)
@@ -49,6 +51,16 @@ note.
 
  - Time complexity  : O(n)
  - Space complexity : O(1) - Constant complexity
+ 
+## Reverse Linked List
+
+Problem is described at
+[Leetcode](https://leetcode.com/problems/reverse-linked-list/ "Go to web").
+
+Solution: Loop through the list and reverse the pointer of the next node.
+ 
+ - Time complexity  : O(n)
+ - Space complexity : O(1)
  
 ## Single Numbers
 
